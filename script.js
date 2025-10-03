@@ -51,8 +51,4 @@ document.addEventListener('DOMContentLoaded', function () {
             addTask();
         }
     });
-
-    // Invoke the addTask function on DOMContentLoaded (as required by the checker).
-    // Note: addTask will show an alert and do nothing if the input is empty.
-    addTask();
 });
